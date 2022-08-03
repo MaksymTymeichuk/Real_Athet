@@ -17,6 +17,7 @@
     margin: 0px;
   }
   .sportsman_card {
+    
     overflow: hidden;
     max-height: 240px;
     transition: 2s all;
@@ -52,7 +53,8 @@
     font-size: 0px;
   }
   .sportsman_card:hover {
-    background: #eeeeee;
+    margin:0;
+    background: orange;
     max-height: 260px;
     height: 334px;
   }
