@@ -10,6 +10,7 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    transition:1s all;
   }
   body {
     display:flex;
@@ -17,6 +18,7 @@
     margin: 0px;
   }
   .sportsman_card {
+    position:relative;
     max-height: 334px;
     transition: 1s all;
     display: flex;
@@ -34,6 +36,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .inside_number {
+    transision: all 1s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +56,18 @@
   .sportsman_card:hover {
     margin:91;
     background: orange;
+    width: 260px;
+    height: 300px;
+  }
+  .sportsman_card:hover img{
 
-    height: 334px;
+    width: 240px;
+    height: 240px;
+  }
+  .sportsman_card:hover .inside_number{
+
+    width: 72px;
+    height: 72px;
   }
   .sportsman_card:hover .info {
     font-size: 16px;
