@@ -12,6 +12,8 @@
     border-radius: 100px;
   }
   body {
+    display:flex;
+    justify-content:center;
     margin: 0px;
   }
   .sportsman_card {
@@ -51,7 +53,7 @@
   }
   .sportsman_card:hover {
     background: #eeeeee;
-    max-height: 500px;
+    max-height: 260px;
     height: 334px;
   }
   .sportsman_card:hover .info {
