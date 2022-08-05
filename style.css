@@ -1,8 +1,9 @@
 .main_frame {
     display: flex;
     flex-wrap: wrap;
-  
     justify-content: center;
+    align-content:flex-start;
+    gap: 30px 30px;
     width: 500px;
     height: 1500px;
   }
@@ -15,6 +16,7 @@
   body {
     display:flex;
     justify-content:center;
+
     margin: 0px;
   }
   .sportsman_card {
@@ -24,10 +26,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 200px;
-    height: 240px;
+    width: 220px;
+    height: 241px;
     border-radius: 10px;
-    margin: 30px 15px 0px 15px;
+    margin-top:30px;
+  
   }
   .text {
     font-size: 20px;
@@ -36,7 +39,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .inside_number {
-    transision: all 1s;
+    transition: all 1s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,22 +57,31 @@
     font-size: 0px;
   }
   .sportsman_card:hover {
-    margin:91;
     background: orange;
-    width: 260px;
-    height: 300px;
-  }
-  .sportsman_card:hover img{
-
-    width: 240px;
-    height: 240px;
-  }
-  .sportsman_card:hover .inside_number{
-
-    width: 72px;
-    height: 72px;
+    width: 220px;
+    height: 287px;
+    margin-bottom:-46px;
+    transform: scale(1.2);
+    z-index:1;
   }
   .sportsman_card:hover .info {
     font-size: 16px;
   }
+
+
+
+@media (max-width: 1000px){
+    .main_frame{
+      gap:0px,0px;
+      width:1000px;
+    }
+}
+@media (max-width: 1500px){
+  .main_frame{
+    gap:0px,0px;
+    width:1000px;
+    
+  }
+}
+
   
