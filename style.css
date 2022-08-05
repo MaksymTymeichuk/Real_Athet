@@ -74,13 +74,14 @@
     .main_frame{
       gap:0px,0px;
       width:1000px;
+      height:1000px;
     }
 }
 @media (max-width: 1500px){
   .main_frame{
     gap:0px,0px;
     width:1000px;
-    
+    height:1000px;
   }
 }
 
