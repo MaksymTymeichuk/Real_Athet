@@ -13,6 +13,7 @@
     height: 200px;
     transition: 1s all;
     border-radius:200px;
+
   }
   body {
     display:flex;
@@ -24,18 +25,20 @@
     position:relative;
     margin-left: 35px;
     margin-right:-40px;
+    top:13px;
     max-height: 334px;
     transition: 1s all;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+
+
     width: 220px;
     height: 241px;
     border-radius: 10px;
     margin-top:30px;
   }
-
   .text {
     font-size: 20px;
     height: 20px;
@@ -44,6 +47,8 @@
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
   }
+
+  
   .inside_number {
     transition: 1s all;
     display: flex;
@@ -55,7 +60,7 @@
     color: #8b0000;
     width: 32px;
     height: 32px;
-    top:80px;
+    top:84px;
     left:167px;
     font-weight: bold;
     background: white;
@@ -69,6 +74,8 @@
     font-weight: 154px;
   }
   .sportsman_card:hover {
+    align-items:center;
+      justify-content:center;
     background: orange;
     width: 220px;
     height: 287px;
