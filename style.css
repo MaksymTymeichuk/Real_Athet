@@ -1,8 +1,8 @@
 .main_frame {
+  padding-top:5px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
-
     align-content:flex-start;
     gap: 0px 10px;
     width: 500px;
@@ -21,9 +21,9 @@
     margin: 0px;
   }
   .sportsman_card {
-    margin-left:45px;
-    margin-right:-45px;
     position:relative;
+    margin-left: 35px;
+    margin-right:-40px;
     max-height: 334px;
     transition: 1s all;
     display: flex;
@@ -94,6 +94,10 @@
       gap:0px,0px;
       width:1000px;
       height:1000px;
+    }
+    .sportsman_card{
+      margin-left:45px;
+      margin-right: -45px;
     }
 }
 @media (min-width: 1500px){
