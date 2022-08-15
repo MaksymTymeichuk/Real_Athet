@@ -10,7 +10,7 @@
   img {
     width: 200px;
     height: 200px;
-    transition: 1s ;
+    transition: 1s all;
     border-radius:200px;
   }
   body {
@@ -42,7 +42,7 @@
     font-weight: 600;
   }
   .inside_number {
-    transition: all 1s;
+    transition: 1s all;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -79,6 +79,9 @@
   }
   .sportsman_card:hover img {
     border-radius: 60px;
+  }
+  .sportsman_card:hover .inside_number{
+    top:100px;
   }
 
 
