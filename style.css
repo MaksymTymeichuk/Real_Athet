@@ -1,5 +1,4 @@
 .main_frame {
-  padding-top:5px;
     display: flex;
     flex-wrap: wrap;
     margin:0 auto;
@@ -25,19 +24,17 @@
     position:relative;
     margin-left: 35px;
     margin-right:-40px;
-    top:13px;
-    max-height: 334px;
+    top:13px;    max-height: 334px;
     transition: 1s all;
     display: flex;
     align-items:center;
     justify-content:flex-start;
     flex-direction:column;
-
-
+    margin-bottom:20px;
     width: 220px;
-    height: 241px;
+    height: 231px;
     border-radius: 10px;
-    margin-top:30px;
+    margin-top: 18px;
   }
   .text {
     font-size: 20px;
@@ -75,23 +72,27 @@
   }
   .sportsman_card:hover {
     align-items:center;
-      justify-content:center;
+    justify-content:center;
     background: orange;
     width: 220px;
     height: 287px;
+    margin-top:5px;
     margin-bottom:-46px;
     transform: scale(1.2);
     z-index:1;
   }
   .sportsman_card:hover .info {
     font-size:18px;
-    margin-top:9px;
+    margin-top:13px;
+    font-size:18px;
+
   }
   .sportsman_card:hover img {
-    border-radius: 60px;
+    border-radius: 53px;
   }
   .sportsman_card:hover .inside_number{
-    top:100px;
+    top:98px;
+    left:169px;
   }
 
 
